@@ -12,6 +12,7 @@
 		5CFF643C2570028A00B27496 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CFF643B2570028A00B27496 /* Assets.xcassets */; };
 		5CFF643F2570028A00B27496 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CFF643E2570028A00B27496 /* Preview Assets.xcassets */; };
 		5CFF6449257002C900B27496 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFF6448257002C900B27496 /* Hike.swift */; };
+		5CFF644D2570096F00B27496 /* HikeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFF644C2570096F00B27496 /* HikeDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5CFF643E2570028A00B27496 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5CFF64402570028A00B27496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CFF6448257002C900B27496 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
+		5CFF644C2570096F00B27496 /* HikeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				5CFF6447257002B200B27496 /* Model */,
 				5CFF64372570028800B27496 /* HikingApp.swift */,
 				5CFF64392570028800B27496 /* ContentView.swift */,
+				5CFF644C2570096F00B27496 /* HikeDetailView.swift */,
 				5CFF643B2570028A00B27496 /* Assets.xcassets */,
 				5CFF64402570028A00B27496 /* Info.plist */,
 				5CFF643D2570028A00B27496 /* Preview Content */,
@@ -151,6 +154,7 @@
 			files = (
 				5CFF6449257002C900B27496 /* Hike.swift in Sources */,
 				5CFF643A2570028800B27496 /* ContentView.swift in Sources */,
+				5CFF644D2570096F00B27496 /* HikeDetailView.swift in Sources */,
 				5CFF64382570028800B27496 /* HikingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
