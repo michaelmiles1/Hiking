@@ -10,17 +10,25 @@ import SwiftUI
 struct HikeDetailView: View {
     
     let hike: Hike
+    @State private var zoomed = false
     
     var body: some View {
         VStack {
             Image(hike.imageURL)
                 .resizable()
-                .aspectRatio(contentMode: .fit)
+                .aspectRatio(contentMode: self.zoomed ? .fill : .fit)
                 .padding()
+                .onTapGesture {
+                    //withAnimation can be used without Result
+                    withAnimation {
+                        self.zoomed.toggle()
+                    }
+                }
             
             Text(hike.name)
             Text(String(format: "%.1f miles", hike.miles))
         }
+        .navigationBarTitle(hike.name, displayMode: .inline)
     }
 }
 
