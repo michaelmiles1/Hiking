@@ -8,9 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let hikes = Hike.all()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        List(self.hikes, id: \.name) { hike in
+            Text(hike.name)
+        }
+        
     }
 }
 
